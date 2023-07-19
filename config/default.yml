@@ -6,7 +6,7 @@
 #───┘ URL └─────────────────────────────────────────────────────
 
 # Final accessible URL seen by a user.
-url: https://m.wydev.link
+url: https://misskey.wuyuan.dev
 
 # ONCE YOU HAVE STARTED THE INSTANCE, DO NOT CHANGE THE
 # URL SETTINGS AFTER THAT!
@@ -38,15 +38,15 @@ port: 3000
 #───┘ PostgreSQL configuration └────────────────────────────────
 
 db:
-  host: db
+  host: ep-silent-butterfly-287814-pooler.us-east-1.postgres.vercel-storage.com
   port: 5432
 
   # Database name
-  db: misskey
+  db: verceldb
 
   # Auth
-  user: example-misskey-user
-  pass: example-misskey-pass
+  user: default
+  pass: QR4v0DiBsgzp
 
   # Whether disable Caching queries
   #disableCache: true
@@ -76,10 +76,10 @@ dbReplications: false
 #───┘ Redis configuration └─────────────────────────────────────
 
 redis:
-  host: redis
-  port: 6379
+  host: possible-bream-44555.upstash.io
+  port: 44555
   #family: 0  # 0=Both, 4=IPv4, 6=IPv6
-  #pass: example-pass
+  pass: 4521d9c33e2c4502a030b17526e914da
   #prefix: example-prefix
   #db: 1
 
