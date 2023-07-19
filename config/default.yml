@@ -52,8 +52,8 @@ db:
   #disableCache: true
 
   # Extra Connection options
-  #extra:
-  #  ssl: true
+  extra:
+    ssl: true
 
 dbReplications: false
 
